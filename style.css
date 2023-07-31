@@ -1,0 +1,103 @@
+
+.container{
+  height:100vh;
+  background-color: bisque;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  color: black;
+  line-height: normal ;
+  text-align : center;
+  margin : 0 auto;
+}
+
+.button{
+  border-radius: 10px;
+  height:30px;
+  background-color: rgb(111, 111, 211);
+
+
+}
+
+.button:hover {
+  background-color: black;
+  text-decoration: underline;
+
+}
+
+.my-img{
+  border-radius: 150%;
+  height: 200px;
+  width: 200px;
+}
+
+h1,h2,h3{
+  color: rgb(37, 38, 39);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+  line-height: 1%;
+}
+p{
+  font-size: 13px;
+}
+h3{
+  color: rgb(111, 245, 241);
+}
+
+.card{
+  background: white;
+  margin: 30px;
+  border: 1px solid lightgrey;
+  padding:15px;
+  border-radius: 20px;
+
+}
+a{
+  color:rgb(148, 130, 130);
+
+  text-decoration: none;
+
+
+}
+
+.list-inline > li{
+  display: inline-block;
+  padding: 0px 15px;
+
+
+}
+.list-inline{
+  list-style: none;
+  padding-left: 0px;
+}
+
+i{
+  font-size: 25px;
+}
+i:hover{
+ color: black;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+
+  h1{
+    font-size: 25px;
+  }
+}
